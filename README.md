@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# load-balancer-project
-This project implements a simple round-robin load balancer in Java. The load balancer forwards incoming client requests to multiple backend servers, distributing the load among them, including a health-check mechanism for each backend server.
-=======
 # Load Balancer Project
 
 ## Project Overview
@@ -26,7 +22,6 @@ This project implements a simple round-robin load balancer in Java. The load bal
 - `LoadBalancer.java`: Main class that starts the load balancer and forwards requests to backend servers.
 - `Server.java`: Represents a backend server and includes information such as URL and health status.
 - `HealthCheckService.java`: Periodically checks the health of each backend server.
-- `application.properties`: Stores configurable properties like load balancer port, backend server details, health check intervals, etc.
 
 ## Getting Started
 
@@ -79,11 +74,4 @@ curl http://localhost:8080
 # Expected output: 503 Service Unavailable
 ```
 
-
 This `README.md` includes an overview, setup instructions, testing methods, logging information, and suggestions for future improvements. Let me know if you'd like to add anything else!
-
-
-
-
-
->>>>>>> 1c9e4d6 (Initial commit with Load Balancer Project)
