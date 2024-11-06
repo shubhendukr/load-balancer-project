@@ -27,7 +27,7 @@ This project implements a simple round-robin load balancer in Java. The load bal
 
 ### 1. Clone the Repository
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/shubhendukr/load-balancer-project.git
 cd load-balancer
 ```
 
