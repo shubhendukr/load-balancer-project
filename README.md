@@ -39,7 +39,7 @@ python3 -m http.server 8082 --directory server8082
 python3 -m http.server 8083 --directory server8083
 ```
 
-### 3.Build and Run the Load Balancer
+### 3. Build and Run the Load Balancer
 ```bash
 # Build the project
 ./gradlew build
@@ -73,5 +73,3 @@ Example:
 curl http://localhost:8080
 # Expected output: 503 Service Unavailable
 ```
-
-This `README.md` includes an overview, setup instructions, testing methods, logging information, and suggestions for future improvements. Let me know if you'd like to add anything else!
